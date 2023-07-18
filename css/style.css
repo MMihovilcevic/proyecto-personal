@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+¨/* fuentes: font-family: 'Fjord One', serif;*/
+
+
+
+/* header*/
+.navbar div nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Fjord One', serif;
+}
+.navbar a{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Fjord One', serif;
+}
+.navbar{
+    font-size: 30px;
+    background-color: rgb(131, 0, 0);
+    color: white;
+    font-family: 'Fjord One', serif;
+    }
+    .navbar img{
+        height: 7.8125rem;
+        width: 100%;;
+    }
+
+.noticias{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Fjord One', serif;
+}
+/* header */
+
+/* main*/
+.sectionprincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 31.25rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    font-size: 20px;
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    color: white
+    
+}
+.sectionprincipal article figure img{
+    height: 9.375rem;
+    width: 6.25rem;
+}
+
+.sectionsecundary{
+    filter: brightness(100%);
+    height: 100%vh;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    text-align: end;
+    font-size: 20px;
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.fondo{
+    filter: brightness;
+    background-image: url(../assets/img/carp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62.5rem;
+    width: 100%;
+    bottom: 1.875rem;
+}
+
+
+.sectionsecundary div img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    bottom: 1.875rem;
+}
+.sectionsecundary a{
+    font-family: 'Fjord One', serif;
+    text-decoration: underline;
+    text-align: left;
+    color: white
+}
+.sectionsecundary ul img{
+    height: 6.25rem;
+    top: 1.875rem;
+    width: 6.25rem;
+}
+.sectionsecundary ul {
+    height: 15.625rem;
+    font-family: 'Fjord One', serif;
+    text-decoration: none;
+    text-align: left;
+    color: white
+    
+}
+.fondocancha img {
+    height: .625rem;
+    width: 100%;
+    background-color: rgb(150, 0, 0);
+    color: white
+}
+.fondocancha{
+    height: 6.25rem;
+    width: 100%;
+    background-color: rgb(150, 0, 0);
+    color: white
+}
+/*jugadores*/
+.temporada h3{
+    text-decoration: solid;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.porteros ul{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.listgk{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    list-style: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.defensas{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.listdefense{
+    list-style: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.mediocampistas{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    list-style: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.listmed{
+    list-style: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.delanteros{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.listdc{
+    list-style: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+/*fichajes*/
+.sectioncinco h4{
+    text-align: center;
+}
+.sectioncincoymedio{
+    width: 15.625rem;
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.sectioncinco{
+    height: 15.625rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.altas{
+
+    background-color: rgb(4, 235, 16);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.bajas{
+
+    background-color: rgb(255, 5, 5);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.sectionseis{
+
+    height: 18.75rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.sectionseis ul img {
+    height: 6.25rem;
+    width: 6.25rem;
+    background-color: rgb(150, 0, 0);
+}
+/*historia*/
+.sectionterciary p{
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+.sectioncuatro {
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    text-align: center;
+    color: white
+    
+}
+.sectioncuatro figure img{
+    height: 50px;
+    width: 50px;
+}
+.sectioncuatro figure {
+    text-align: end;
+    text-decoration: solid;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    color: white
+}
+/* main*/ 
+
+/* footer*/
+.footerprimary{
+    background-color: rgb(131, 0, 0);
+    height: 6.125rem;
+}
+.footerprimary div a{
+    
+    height: 3.125rem;
+    background-color: rgb(131, 0, 0);
+    text-decoration: underline;
+    font-family: 'Fjord One', serif;
+    color: white
+}
+/*goles*/ 
+.sectionsiete{
+    height: 18.75rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    text-align:left;
+    color: white
+}
+.sectionsiete video{
+    height: 18.75rem;
+    width: 31.25rem;
+
+}
+
+.sectionocho{
+    height: 18.75rem;
+    padding: 6.25rem;
+    margin: 0rem;
+    border: 1.875rem;
+    bottom: 3.125rem;
+    text-decoration: none;
+    background-color: rgb(150, 0, 0);
+    font-family: 'Fjord One', serif;
+    text-align: end;
+    color: white
+}
+/* footer*/
