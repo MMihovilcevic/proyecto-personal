@@ -98,7 +98,7 @@
     padding: 6.25rem;
     margin: 0rem;
     border: 1.875rem;
-    top: 1.25rem;
+    top: 5.3125rem;
     row-gap: 2.5rem;
     flex-direction: row;
     justify-content: center;
@@ -334,9 +334,9 @@
     color: white
 }
 .sectioncuatro {
+
     background-color: rgb(150, 0, 0);
     font-family: 'Fjord One', serif;
-    text-align: center;
     color: white
     
 }
@@ -345,7 +345,7 @@
     width: 50px;
 }
 .sectioncuatro figure {
-    text-align: end;
+    text-align: center;
     text-decoration: solid;
     background-color: rgb(150, 0, 0);
     font-family: 'Fjord One', serif;
