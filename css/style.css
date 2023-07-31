@@ -291,11 +291,14 @@
     color: white
 }
 .sectioncinco{
-    height: 15.625rem;
+    height: 1.875rem;
     padding: 6.25rem;
     margin: 0rem;
     border: 1.875rem;
     bottom: 3.125rem;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
     background-color: rgb(150, 0, 0);
     font-family: 'Fjord One', serif;
     color: white
@@ -314,9 +317,7 @@
 }
 .sectionseis{
 
-    height: 18.75rem;
-    padding: 6.25rem;
-    margin: 0rem;
+    height: 31.875rem;
     border: 1.875rem;
     bottom: 3.125rem;
     background-color: rgb(150, 0, 0);
@@ -525,5 +526,67 @@
 }
 @media (max-height: 1024px) {
     .sectionocho {
+    width: 100%;
+    }
+
+    @media (max-height: 1024px) {
+    .temporada {
+    width: 100%;
+    }
+    @media (max-height: 768px) {
+    .temporada {
+    width: 100%;
+    }
+    @media (max-height: 320px) {
+    .temporada {
+    width: 100%;
+    }
+    
+    @media (max-height: 1024px) {
+    .porteros {
+    width: 100%;
+    }
+    @media (max-height: 768px) {
+    .porteros {
+    width: 100%;
+    }
+    @media (max-height: 320px) {
+    .porteros {
+    width: 100%;
+    }
+    @media (max-height: 1024px) {
+    .defensas {
+    width: 100%;
+    }
+    @media (max-height: 768px) {
+    .defensas {
+    width: 100%;
+    }
+    @media (max-height: 320px) {
+    .defensas {
+    width: 100%;
+    }
+    @media (max-height: 1024px) {
+    .mediocampistas {
+    width: 100%;
+    }
+    @media (max-height: 768px) {
+    .mediocampistas {
+    width: 100%;
+    }
+    @media (max-height: 320px) {
+    .mediocampistas {
+    width: 100%;
+    }
+    @media (max-height: 1024px) {
+    .delanteros{
+    width: 100%;
+    }
+    @media (max-height: 768px) {
+    .delanteros {
+    width: 100%;
+    }
+    @media (max-height: 320px) {
+    .delanteros {
     width: 100%;
     }
